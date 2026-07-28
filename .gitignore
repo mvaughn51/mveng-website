@@ -1,0 +1,18 @@
+# Jekyll build output
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Bundler
+.bundle/
+vendor/
+Gemfile.lock
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node (if using Chirpy's asset pipeline locally)
+node_modules/
+package-lock.json

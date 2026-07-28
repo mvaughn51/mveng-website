@@ -1,0 +1,226 @@
+# ═══════════════════════════════════════════════════════════════════
+# _config.yml  ·  MVeng website
+# Theme: Chirpy  (https://github.com/cotes2020/jekyll-theme-chirpy)
+#
+# KEY ROUTING DECISION
+#   The root index.md uses layout: page → renders the static landing page.
+#   The post feed lives at the external GitHub Pages blog (see blog_url).
+#   No jekyll-paginate is needed on THIS site because posts live elsewhere.
+# ═══════════════════════════════════════════════════════════════════
+
+
+# ───────────────────────────────────────
+# IDENTITY
+# ───────────────────────────────────────
+lang: en
+timezone: America/Chicago   # adjust to your local timezone
+
+title: MVeng
+tagline: Precision Engineering, Purposeful Solutions
+description: >-
+  MVeng is an independent mechanical and systems engineering consultancy
+  offering structural analysis, product design, and technical consulting.
+
+# Your deployed site URL (no trailing slash).
+# For GitHub Pages with a custom domain: https://mveng.com
+# For plain GitHub Pages:                https://<username>.github.io
+url: "https://mveng.com"
+baseurl: ""   # leave empty unless deploying to a sub-path
+
+
+# ───────────────────────────────────────
+# EXTERNAL BLOG  ← fill in when ready
+# ───────────────────────────────────────
+# This site is a static landing page only.
+# The post feed is a separate Jekyll/Chirpy site hosted on GitHub Pages.
+# Replace the placeholder below with your actual blog URL, then update
+# every "BLOG_URL" placeholder in index.md as well.
+blog_url: "https://blog.mveng.com"   # TODO: replace with real URL
+
+
+# ───────────────────────────────────────
+# AUTHOR / SOCIAL
+# ───────────────────────────────────────
+github:
+  username: mvaughn51   # your GitHub username
+
+social:
+  name: M. Vaughn
+  email: mvaughn51@gmail.com
+  links:
+    # Add the URL of your primary social profile first so it becomes
+    # the "sameAs" entry in the JSON-LD structured data.
+    - https://github.com/mvaughn51
+    # - https://www.linkedin.com/in/YOURPROFILE   # uncomment and fill in
+
+
+# ───────────────────────────────────────
+# APPEARANCE
+# ───────────────────────────────────────
+# Path to your avatar image. Place the file in /assets/img/.
+avatar: /assets/img/avatar.jpg   # create this file; 200×200 px minimum
+
+# Light | Dark — default color scheme when the visitor has no preference.
+theme_mode: light   # options: light | dark
+
+# Generates an "edit on GitHub" link for each page.
+# Set to the raw GitHub repo URL for this site (not the blog repo).
+github_edit_url: ""   # e.g. https://github.com/mvaughn51/mveng-website
+
+# Controls whether the Table of Contents sidebar appears on pages.
+# Overridden per-page with `toc: false` in front matter (used on index.md).
+toc: true
+
+
+# ───────────────────────────────────────
+# SIDEBAR / NAVIGATION
+# ───────────────────────────────────────
+# Chirpy builds the sidebar tabs from files in the _tabs/ directory.
+# The landing page is served from index.md (permalink: /) and appears
+# in the sidebar as the first tab via `order: 1` in its front matter.
+#
+# Recommended _tabs/ files for this site:
+#   _tabs/about.md       — extended bio / CV (order: 2)
+#   _tabs/services.md    — detailed service descriptions (order: 3)
+#   _tabs/blog.md        — external link redirect to the blog (order: 4)
+#   _tabs/contact.md     — contact form or details (order: 5)
+#
+# See the Chirpy docs for how to create tab files.
+
+
+# ───────────────────────────────────────
+# PAGINATION  (not used on this site)
+# ───────────────────────────────────────
+# Because all posts live on the external blog site, we do NOT need
+# jekyll-paginate here. If you ever want to pull posts into this site,
+# add the jekyll-paginate-v2 gem (supports pagination on any page path)
+# and re-enable the block below.
+#
+# paginate: 10
+# paginate_path: /blog/page:num/
+
+
+# ───────────────────────────────────────
+# COMMENTS  (optional — Chirpy supports multiple providers)
+# ───────────────────────────────────────
+comments:
+  active: ""      # set to "disqus", "utterances", or "giscus" when ready
+  disqus:
+    shortname: ""
+  utterances:
+    repo: ""
+    issue_term: ""
+  giscus:
+    repo: ""
+    repo_id: ""
+    category: ""
+    category_id: ""
+    mapping: ""
+    input_position: ""
+    lang: ""
+
+
+# ───────────────────────────────────────
+# ANALYTICS  (optional)
+# ───────────────────────────────────────
+analytics:
+  google:
+    id: ""    # e.g. G-XXXXXXXXXX
+  goatcounter:
+    id: ""
+
+
+# ───────────────────────────────────────
+# SEO / STRUCTURED DATA
+# ───────────────────────────────────────
+webmaster_verifications:
+  google: ""    # Google Search Console verification code
+  bing: ""
+
+# twitter:
+#   username: ""
+
+
+# ───────────────────────────────────────
+# BUILD SETTINGS
+# ───────────────────────────────────────
+# These match the defaults expected by the Chirpy starter template.
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+collections:
+  tabs:
+    output: true
+    sort_by: order
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      comments: true
+      toc: true
+      permalink: /posts/:title/
+  - scope:
+      path: ""
+      type: tabs
+    values:
+      layout: page
+      permalink: /:title/
+  # Landing page overrides: no TOC, no breadcrumb-style title
+  - scope:
+      path: index.md
+    values:
+      layout: page
+      toc: false
+
+# Assets handled by the Chirpy theme's asset pipeline.
+assets:
+  self_host:
+    enabled: false
+
+sass:
+  style: compressed
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+  blanklines: false
+  ignore:
+    envs: [development]
+
+exclude:
+  - "*.gem"
+  - "*.gemspec"
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .bundle
+  - .jekyll-cache
+  - .sass-cache
+  - README.md
+  - CHANGELOG.md
+
+# ───────────────────────────────────────
+# PLUGINS
+# ───────────────────────────────────────
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  # jekyll-paginate      ← omitted; posts live on external blog
