@@ -63,7 +63,7 @@ social:
 # APPEARANCE
 # ───────────────────────────────────────
 # Path to your avatar image. Place the file in /assets/img/.
-avatar: /assets/img/avatar.jpg   # create this file; 200×200 px minimum
+avatar: /assets/img/logo.svg
 
 # Light | Dark — default color scheme when the visitor has no preference.
 theme_mode: light   # options: light | dark
