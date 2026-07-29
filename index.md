@@ -40,7 +40,7 @@ toc: false
 <!-- ════════════════════════════════════════════
      ABOUT
 ════════════════════════════════════════════ -->
-<section id="about" class="mb-5">
+<section id="about" class="mb-5" markdown="1">
 
 ## About MVeng
 
@@ -85,7 +85,7 @@ scales to fit.
 <!-- ════════════════════════════════════════════
      SERVICES / SKILLS
 ════════════════════════════════════════════ -->
-<section id="services" class="mb-5">
+<section id="services" class="mb-5" markdown="1">
 
 ## Core Services
 
@@ -201,7 +201,7 @@ scales to fit.
 <!-- ════════════════════════════════════════════
      RECENT WRITING  (links to external blog)
 ════════════════════════════════════════════ -->
-<section id="writing" class="mb-5">
+<section id="writing" class="mb-5" markdown="1">
 
 ## From the Blog
 
@@ -227,7 +227,7 @@ Practical engineering write-ups, lessons learned, and tool deep-dives — publis
 <!-- ════════════════════════════════════════════
      CALL TO ACTION / CONTACT
 ════════════════════════════════════════════ -->
-<section id="contact" class="text-center py-4 mb-3">
+<section id="contact" class="text-center py-4 mb-3" markdown="1">
 
 ## Ready to Start a Project?
 
