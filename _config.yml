@@ -24,7 +24,7 @@ description: >-
 # Your deployed site URL (no trailing slash).
 # For GitHub Pages with a custom domain: https://mveng.com
 # For plain GitHub Pages:                https://<username>.github.io
-url: "https://mveng.com"
+url: "https://www.mveng.fyi"
 baseurl: ""   # leave empty unless deploying to a sub-path
 
 
