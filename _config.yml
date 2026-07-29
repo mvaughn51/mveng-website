@@ -8,7 +8,6 @@
 #   No jekyll-paginate is needed on THIS site because posts live elsewhere.
 # ═══════════════════════════════════════════════════════════════════
 
-
 # ───────────────────────────────────────
 # THEME
 # ───────────────────────────────────────
@@ -18,7 +17,7 @@ theme: jekyll-theme-chirpy
 # IDENTITY
 # ───────────────────────────────────────
 lang: en
-timezone: America/Chicago   # adjust to your local timezone
+timezone: America/Chicago # adjust to your local timezone
 
 title: MVeng
 tagline: Precision Engineering, Purposeful Solutions
@@ -30,8 +29,7 @@ description: >-
 # For GitHub Pages with a custom domain: https://mveng.com
 # For plain GitHub Pages:                https://<username>.github.io
 url: "https://www.mveng.fyi"
-baseurl: ""   # leave empty unless deploying to a sub-path
-
+baseurl: "" # leave empty unless deploying to a sub-path
 
 # ───────────────────────────────────────
 # EXTERNAL BLOG  ← fill in when ready
@@ -40,14 +38,13 @@ baseurl: ""   # leave empty unless deploying to a sub-path
 # The post feed is a separate Jekyll/Chirpy site hosted on GitHub Pages.
 # Replace the placeholder below with your actual blog URL, then update
 # every "BLOG_URL" placeholder in index.md as well.
-blog_url: "https://blog.mveng.com"   # TODO: replace with real URL
-
+blog_url: "https://mvaughn51.github.io/mvaughn51/" # TODO: replace with real URL
 
 # ───────────────────────────────────────
 # AUTHOR / SOCIAL
 # ───────────────────────────────────────
 github:
-  username: mvaughn51   # your GitHub username
+  username: mvaughn51 # your GitHub username
 
 social:
   name: M. Vaughn
@@ -58,7 +55,6 @@ social:
     - https://github.com/mvaughn51
     # - https://www.linkedin.com/in/YOURPROFILE   # uncomment and fill in
 
-
 # ───────────────────────────────────────
 # APPEARANCE
 # ───────────────────────────────────────
@@ -66,16 +62,15 @@ social:
 avatar: /assets/img/logo.svg
 
 # Light | Dark — default color scheme when the visitor has no preference.
-theme_mode: light   # options: light | dark
+theme_mode: light # options: light | dark
 
 # Generates an "edit on GitHub" link for each page.
 # Set to the raw GitHub repo URL for this site (not the blog repo).
-github_edit_url: ""   # e.g. https://github.com/mvaughn51/mveng-website
+github_edit_url: "" # e.g. https://github.com/mvaughn51/mveng-website
 
 # Controls whether the Table of Contents sidebar appears on pages.
 # Overridden per-page with `toc: false` in front matter (used on index.md).
 toc: true
-
 
 # ───────────────────────────────────────
 # SIDEBAR / NAVIGATION
@@ -92,7 +87,6 @@ toc: true
 #
 # See the Chirpy docs for how to create tab files.
 
-
 # ───────────────────────────────────────
 # PAGINATION  (not used on this site)
 # ───────────────────────────────────────
@@ -104,12 +98,11 @@ toc: true
 # paginate: 10
 # paginate_path: /blog/page:num/
 
-
 # ───────────────────────────────────────
 # COMMENTS  (optional — Chirpy supports multiple providers)
 # ───────────────────────────────────────
 comments:
-  active: ""      # set to "disqus", "utterances", or "giscus" when ready
+  active: "" # set to "disqus", "utterances", or "giscus" when ready
   disqus:
     shortname: ""
   utterances:
@@ -124,27 +117,24 @@ comments:
     input_position: ""
     lang: ""
 
-
 # ───────────────────────────────────────
 # ANALYTICS  (optional)
 # ───────────────────────────────────────
 analytics:
   google:
-    id: ""    # e.g. G-XXXXXXXXXX
+    id: "" # e.g. G-XXXXXXXXXX
   goatcounter:
     id: ""
-
 
 # ───────────────────────────────────────
 # SEO / STRUCTURED DATA
 # ───────────────────────────────────────
 webmaster_verifications:
-  google: ""    # Google Search Console verification code
+  google: "" # Google Search Console verification code
   bing: ""
 
 # twitter:
 #   username: ""
-
 
 # ───────────────────────────────────────
 # BUILD SETTINGS
