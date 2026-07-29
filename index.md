@@ -56,21 +56,21 @@ scales to fit.
 
 <div class="row g-4 mt-3">
   <div class="col-md-4">
-    <div class="card h-100 border-0 shadow-sm text-center p-3">
+    <div class="card h-100 border-0 shadow-sm text-center p-4">
       <i class="fas fa-drafting-compass fa-2x text-primary mb-3"></i>
       <h5 class="fw-semibold">Design-First</h5>
       <p class="small text-muted">Every engagement starts with a deep-dive into requirements before a single line or weld is drawn.</p>
     </div>
   </div>
   <div class="col-md-4">
-    <div class="card h-100 border-0 shadow-sm text-center p-3">
+    <div class="card h-100 border-0 shadow-sm text-center p-4">
       <i class="fas fa-shield-halved fa-2x text-primary mb-3"></i>
       <h5 class="fw-semibold">Safety &amp; Compliance</h5>
       <p class="small text-muted">Work product is traceable, documented, and aligned with relevant codes and standards from day one.</p>
     </div>
   </div>
   <div class="col-md-4">
-    <div class="card h-100 border-0 shadow-sm text-center p-3">
+    <div class="card h-100 border-0 shadow-sm text-center p-4">
       <i class="fas fa-handshake fa-2x text-primary mb-3"></i>
       <h5 class="fw-semibold">Transparent Partnership</h5>
       <p class="small text-muted">Fixed-scope or retainer — you always know the status, the spend, and the next step.</p>
@@ -92,7 +92,7 @@ scales to fit.
 <div class="row g-4 mt-2">
 
   <div class="col-sm-6 col-lg-4">
-    <div class="card h-100 border-0 shadow-sm p-3">
+    <div class="card h-100 border-0 shadow-sm p-4">
       <div class="d-flex align-items-center mb-2">
         <i class="fas fa-ruler-combined text-primary me-3 fa-lg"></i>
         <h5 class="fw-semibold mb-0">Structural Analysis</h5>
@@ -109,7 +109,7 @@ scales to fit.
   </div>
 
   <div class="col-sm-6 col-lg-4">
-    <div class="card h-100 border-0 shadow-sm p-3">
+    <div class="card h-100 border-0 shadow-sm p-4">
       <div class="d-flex align-items-center mb-2">
         <i class="fas fa-cube text-primary me-3 fa-lg"></i>
         <h5 class="fw-semibold mb-0">Product Design &amp; DFM</h5>
@@ -126,7 +126,7 @@ scales to fit.
   </div>
 
   <div class="col-sm-6 col-lg-4">
-    <div class="card h-100 border-0 shadow-sm p-3">
+    <div class="card h-100 border-0 shadow-sm p-4">
       <div class="d-flex align-items-center mb-2">
         <i class="fas fa-industry text-primary me-3 fa-lg"></i>
         <h5 class="fw-semibold mb-0">Systems &amp; Process Engineering</h5>
@@ -143,7 +143,7 @@ scales to fit.
   </div>
 
   <div class="col-sm-6 col-lg-4">
-    <div class="card h-100 border-0 shadow-sm p-3">
+    <div class="card h-100 border-0 shadow-sm p-4">
       <div class="d-flex align-items-center mb-2">
         <i class="fas fa-file-contract text-primary me-3 fa-lg"></i>
         <h5 class="fw-semibold mb-0">Technical Documentation</h5>
@@ -160,7 +160,7 @@ scales to fit.
   </div>
 
   <div class="col-sm-6 col-lg-4">
-    <div class="card h-100 border-0 shadow-sm p-3">
+    <div class="card h-100 border-0 shadow-sm p-4">
       <div class="d-flex align-items-center mb-2">
         <i class="fas fa-magnifying-glass-chart text-primary me-3 fa-lg"></i>
         <h5 class="fw-semibold mb-0">Failure Analysis &amp; Root Cause</h5>
@@ -177,7 +177,7 @@ scales to fit.
   </div>
 
   <div class="col-sm-6 col-lg-4">
-    <div class="card h-100 border-0 shadow-sm p-3">
+    <div class="card h-100 border-0 shadow-sm p-4">
       <div class="d-flex align-items-center mb-2">
         <i class="fas fa-chalkboard-user text-primary me-3 fa-lg"></i>
         <h5 class="fw-semibold mb-0">Technical Consulting &amp; Review</h5>
