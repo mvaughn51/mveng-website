@@ -220,7 +220,7 @@ exclude:
 # PLUGINS
 # ───────────────────────────────────────
 plugins:
-  - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
   # jekyll-paginate      ← omitted; posts live on external blog
+  # jekyll-feed          ← omitted; no posts on this site, RSS not applicable
