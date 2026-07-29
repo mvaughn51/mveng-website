@@ -32,13 +32,11 @@ url: "https://www.mveng.fyi"
 baseurl: "" # leave empty unless deploying to a sub-path
 
 # ───────────────────────────────────────
-# EXTERNAL BLOG  ← fill in when ready
+# EXTERNAL BLOG
 # ───────────────────────────────────────
 # This site is a static landing page only.
 # The post feed is a separate Jekyll/Chirpy site hosted on GitHub Pages.
-# Replace the placeholder below with your actual blog URL, then update
-# every "BLOG_URL" placeholder in index.md as well.
-blog_url: "https://mvaughn51.github.io/mvaughn51/" # TODO: replace with real URL
+blog_url: "https://mvaughn51.github.io/mvaughn51/"
 
 # ───────────────────────────────────────
 # AUTHOR / SOCIAL
