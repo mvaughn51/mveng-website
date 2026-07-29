@@ -209,13 +209,13 @@ Practical engineering write-ups, lessons learned, and tool deep-dives — publis
 
 <div class="d-flex flex-wrap gap-2 mt-3">
   <!-- Replace BLOG_URL with your GitHub Pages blog URL when available -->
-  <a href="BLOG_URL" class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener">
+  <a href="https://mvaughn51.github.io/mvaughn51/" class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener">
     <i class="fas fa-rss me-1"></i>Read All Posts
   </a>
-  <a href="BLOG_URL/categories" class="btn btn-sm btn-outline-secondary" target="_blank" rel="noopener">
+  <a href="https://mvaughn51.github.io/mvaughn51//categories" class="btn btn-sm btn-outline-secondary" target="_blank" rel="noopener">
     <i class="fas fa-folder-open me-1"></i>Browse by Category
   </a>
-  <a href="BLOG_URL/tags" class="btn btn-sm btn-outline-secondary" target="_blank" rel="noopener">
+  <a href="https://mvaughn51.github.io/mvaughn51//tags" class="btn btn-sm btn-outline-secondary" target="_blank" rel="noopener">
     <i class="fas fa-tags me-1"></i>Browse by Tag
   </a>
 </div>
@@ -238,7 +238,7 @@ let's find out if MVeng is the right fit.
   <a href="mailto:mvaughn51@gmail.com" class="btn btn-primary btn-lg px-5">
     <i class="fas fa-paper-plane me-2"></i>Send a Message
   </a>
-  <a href="BLOG_URL" class="btn btn-outline-secondary btn-lg px-5" target="_blank" rel="noopener">
+  <a href="https://mvaughn51.github.io/mvaughn51/" class="btn btn-outline-secondary btn-lg px-5" target="_blank" rel="noopener">
     <i class="fas fa-book-open me-2"></i>Read the Blog
   </a>
 </div>
