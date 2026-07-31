@@ -100,7 +100,7 @@ toc: true
 # COMMENTS  (optional — Chirpy supports multiple providers)
 # ───────────────────────────────────────
 comments:
-  active: "" # set to "disqus", "utterances", or "giscus" when ready
+  provider: "" # set to "disqus", "utterances", or "giscus" when ready
   disqus:
     shortname: ""
   utterances:
