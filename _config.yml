@@ -17,7 +17,7 @@ theme: jekyll-theme-chirpy
 # IDENTITY
 # ───────────────────────────────────────
 lang: en
-timezone: America/Chicago # adjust to your local timezone
+timezone: America/Los_Angeles # PST/PDT
 
 title: MVeng
 tagline: Precision Engineering, Purposeful Solutions
@@ -61,10 +61,6 @@ avatar: /assets/img/logo.svg
 
 # Light | Dark — default color scheme when the visitor has no preference.
 theme_mode: light # options: light | dark
-
-# Generates an "edit on GitHub" link for each page.
-# Set to the raw GitHub repo URL for this site (not the blog repo).
-github_edit_url: "" # e.g. https://github.com/mvaughn51/mveng-website
 
 # Controls whether the Table of Contents sidebar appears on pages.
 # Overridden per-page with `toc: false` in front matter (used on index.md).
