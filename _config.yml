@@ -20,10 +20,11 @@ lang: en
 timezone: America/Los_Angeles # PST/PDT
 
 title: MVeng
-tagline: Precision Engineering, Purposeful Solutions
+tagline: 45+ Years of Software & Systems Engineering
 description: >-
-  MVeng is an independent mechanical and systems engineering consultancy
-  offering structural analysis, product design, and technical consulting.
+  MVeng is the consulting practice of M. Vaughn — 45+ years of software,
+  embedded systems, and systems engineering experience, now offering
+  part-time and contract engineering work.
 
 # Your deployed site URL (no trailing slash).
 # For GitHub Pages with a custom domain: https://mveng.com

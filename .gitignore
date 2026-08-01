@@ -16,3 +16,6 @@ Thumbs.db
 # Node (if using Chirpy's asset pipeline locally)
 node_modules/
 package-lock.json
+
+# Local scratch notes, not part of the site
+content.md

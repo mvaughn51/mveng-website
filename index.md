@@ -18,16 +18,17 @@ toc: false
 ════════════════════════════════════════════ -->
 <section class="mv-hero text-center py-5">
   <h1 class="display-5 fw-bold">
-    Precision Engineering,&nbsp;<span class="text-primary">Purposeful Solutions</span>
+    45+ Years of&nbsp;<span class="text-primary">Software &amp; Systems Engineering</span>
   </h1>
   <p class="lead mt-3 mb-4 mx-auto" style="max-width:680px;">
-    MVeng delivers end-to-end mechanical and systems engineering expertise —
-    from concept through commissioning — for clients who demand quality and
-    clarity at every stage.
+    From PCB layout to embedded RTOS work to enterprise UNIX and Windows
+    applications — decades of hands-on engineering at a single defense
+    contractor, now available for consulting and part-time work as I
+    ease into semi-retirement.
   </p>
   <div class="d-flex flex-wrap justify-content-center gap-3">
-    <a href="#services" class="btn btn-primary btn-lg px-4">
-      <i class="fas fa-cogs me-2"></i>Our Services
+    <a href="#expertise" class="btn btn-primary btn-lg px-4">
+      <i class="fas fa-cogs me-2"></i>What I Do
     </a>
     <a href="#contact" class="btn btn-outline-secondary btn-lg px-4">
       <i class="fas fa-envelope me-2"></i>Get in Touch
@@ -38,42 +39,52 @@ toc: false
 <hr class="my-5">
 
 <!-- ════════════════════════════════════════════
-     ABOUT
+     BACKGROUND
 ════════════════════════════════════════════ -->
 <section id="about" class="mb-5" markdown="1">
 
-## About MVeng
+## Background
 
-MVeng is an independent engineering consultancy built on the belief that rigorous
-technical work and clear communication are inseparable. Founded by **M. Vaughn**,
-the practice draws on years of hands-on experience across structural analysis,
-product development, and industrial systems design.
+I spent 45+ years at the same small defense contractor — starting as a
+design draftsman, moving into PCB layout, and by the early 1980s landing
+in software engineering (how that happened is probably its own blog
+post).
 
-We work closely with startups, small manufacturers, and established firms to solve
-problems that sit at the intersection of physics, process, and practicality.
-Whether you need a single design review or a long-term technical partner, MVeng
-scales to fit.
+As a software engineer, I supported a multi-user application written in
+C running on a variant of BSD UNIX — everything from ongoing development
+to installations to end-user training. That meant a lot of domestic and
+international travel early in my career.
+
+That application evolved right along with the hardware: from
+minicomputers, to Sun workstations, to Windows in the early 2000s. It
+gave me a solid grounding in C/C++ and application development across
+both UNIX/Linux and Windows environments. Along the way I also worked on
+embedded systems built on RTOSes like VxWorks, RT-Kernel, and FreeRTOS,
+as well as bare-metal microcontroller systems.
+
+Somewhere in there I started consulting for other companies on the side
+— that's where MVeng got its start, and it's the base I'm building on now.
 
 <div class="row g-4 mt-3">
   <div class="col-md-4">
     <div class="card h-100 border-0 shadow-sm text-center">
-      <i class="fas fa-drafting-compass fa-2x text-primary mb-3"></i>
-      <h5 class="fw-semibold">Design-First</h5>
-      <p class="small text-muted">Every engagement starts with a deep-dive into requirements before a single line or weld is drawn.</p>
+      <i class="fas fa-code fa-2x text-primary mb-3"></i>
+      <h5 class="fw-semibold">45+ Years, One Thread</h5>
+      <p class="small text-muted">From design draftsman to PCB layout to software engineer — continuous, hands-on engineering at one company.</p>
     </div>
   </div>
   <div class="col-md-4">
     <div class="card h-100 border-0 shadow-sm text-center">
-      <i class="fas fa-shield-halved fa-2x text-primary mb-3"></i>
-      <h5 class="fw-semibold">Safety &amp; Compliance</h5>
-      <p class="small text-muted">Work product is traceable, documented, and aligned with relevant codes and standards from day one.</p>
+      <i class="fas fa-server fa-2x text-primary mb-3"></i>
+      <h5 class="fw-semibold">Minicomputers to Windows</h5>
+      <p class="small text-muted">C/C++ application development spanning minicomputer, Sun/UNIX, Linux, and Windows platforms.</p>
     </div>
   </div>
   <div class="col-md-4">
     <div class="card h-100 border-0 shadow-sm text-center">
-      <i class="fas fa-handshake fa-2x text-primary mb-3"></i>
-      <h5 class="fw-semibold">Transparent Partnership</h5>
-      <p class="small text-muted">Fixed-scope or retainer — you always know the status, the spend, and the next step.</p>
+      <i class="fas fa-microchip fa-2x text-primary mb-3"></i>
+      <h5 class="fw-semibold">Embedded &amp; Bare Metal</h5>
+      <p class="small text-muted">RTOS work with VxWorks, RT-Kernel, and FreeRTOS, plus bare-metal microcontroller systems.</p>
     </div>
   </div>
 </div>
@@ -83,27 +94,43 @@ scales to fit.
 <hr class="my-5">
 
 <!-- ════════════════════════════════════════════
-     SERVICES / SKILLS
+     WHERE I AM NOW
 ════════════════════════════════════════════ -->
-<section id="services" class="mb-5" markdown="1">
+<section id="now" class="mb-5" markdown="1">
 
-## Core Services
+## Where I Am Now
+
+I'm about three years past what would've been a traditional retirement
+date and easing into semi-retirement. I'll keep working part-time with
+my current company and taking on consulting engagements — this site is
+home base for that next chapter.
+
+</section>
+
+<hr class="my-5">
+
+<!-- ════════════════════════════════════════════
+     EXPERTISE
+════════════════════════════════════════════ -->
+<section id="expertise" class="mb-5" markdown="1">
+
+## Areas of Expertise
 
 <div class="row g-4 mt-2">
 
   <div class="col-sm-6 col-lg-4">
     <div class="card h-100 border-0 shadow-sm">
       <div class="d-flex align-items-center mb-2">
-        <i class="fas fa-ruler-combined text-primary me-3 fa-lg"></i>
-        <h5 class="fw-semibold mb-0">Structural Analysis</h5>
+        <i class="fas fa-code text-primary me-3 fa-lg"></i>
+        <h5 class="fw-semibold mb-0">Software Development (C/C++)</h5>
       </div>
       <p class="small text-muted mb-2">
-        FEA, hand calculations, and code-check reports for static and dynamic loading scenarios.
+        Decades of hands-on development and maintenance of a multi-user C application.
       </p>
       <ul class="small text-muted ps-3 mb-0">
-        <li>ANSYS / SolidWorks Simulation</li>
-        <li>AISC / ASCE load combinations</li>
-        <li>Fatigue &amp; fracture assessment</li>
+        <li>Multi-user application development</li>
+        <li>UNIX/Linux and Windows platforms</li>
+        <li>Long-term maintenance &amp; modernization</li>
       </ul>
     </div>
   </div>
@@ -111,16 +138,16 @@ scales to fit.
   <div class="col-sm-6 col-lg-4">
     <div class="card h-100 border-0 shadow-sm">
       <div class="d-flex align-items-center mb-2">
-        <i class="fas fa-cube text-primary me-3 fa-lg"></i>
-        <h5 class="fw-semibold mb-0">Product Design &amp; DFM</h5>
+        <i class="fas fa-microchip text-primary me-3 fa-lg"></i>
+        <h5 class="fw-semibold mb-0">Embedded Systems &amp; RTOS</h5>
       </div>
       <p class="small text-muted mb-2">
-        Concept ideation through production-ready drawings with full GD&amp;T callouts.
+        Embedded development across multiple real-time operating systems and bare metal.
       </p>
       <ul class="small text-muted ps-3 mb-0">
-        <li>SolidWorks / Fusion 360 CAD</li>
-        <li>Tolerance stackup analysis</li>
-        <li>Rapid prototype coordination</li>
+        <li>VxWorks, RT-Kernel, FreeRTOS</li>
+        <li>Bare-metal microcontroller systems</li>
+        <li>Hardware/software integration</li>
       </ul>
     </div>
   </div>
@@ -128,16 +155,33 @@ scales to fit.
   <div class="col-sm-6 col-lg-4">
     <div class="card h-100 border-0 shadow-sm">
       <div class="d-flex align-items-center mb-2">
-        <i class="fas fa-industry text-primary me-3 fa-lg"></i>
-        <h5 class="fw-semibold mb-0">Systems &amp; Process Engineering</h5>
+        <i class="fas fa-server text-primary me-3 fa-lg"></i>
+        <h5 class="fw-semibold mb-0">UNIX/Linux &amp; Windows Platforms</h5>
       </div>
       <p class="small text-muted mb-2">
-        P&amp;IDs, equipment specs, and commissioning support for industrial and commercial facilities.
+        Cross-platform application experience from minicomputer-era UNIX through modern Windows.
       </p>
       <ul class="small text-muted ps-3 mb-0">
-        <li>Piping &amp; mechanical systems</li>
-        <li>Equipment selection &amp; sizing</li>
-        <li>Commissioning &amp; start-up plans</li>
+        <li>BSD UNIX &amp; Linux</li>
+        <li>Sun workstation to Windows migrations</li>
+        <li>Platform ports &amp; re-architecture</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-lg-4">
+    <div class="card h-100 border-0 shadow-sm">
+      <div class="d-flex align-items-center mb-2">
+        <i class="fas fa-plane text-primary me-3 fa-lg"></i>
+        <h5 class="fw-semibold mb-0">Installation, Support &amp; Training</h5>
+      </div>
+      <p class="small text-muted mb-2">
+        On-site installation and end-user training, domestic and international.
+      </p>
+      <ul class="small text-muted ps-3 mb-0">
+        <li>Field installations</li>
+        <li>End-user &amp; operator training</li>
+        <li>Ongoing customer support</li>
       </ul>
     </div>
   </div>
@@ -149,12 +193,12 @@ scales to fit.
         <h5 class="fw-semibold mb-0">Technical Documentation</h5>
       </div>
       <p class="small text-muted mb-2">
-        Engineering reports, SOPs, and user manuals written for both technical and non-technical audiences.
+        Documentation written for both technical and non-technical audiences.
       </p>
       <ul class="small text-muted ps-3 mb-0">
-        <li>Calculation packages</li>
-        <li>Design basis documents</li>
-        <li>Regulatory submission support</li>
+        <li>User manuals &amp; training materials</li>
+        <li>Design &amp; maintenance documentation</li>
+        <li>Process &amp; procedure write-ups</li>
       </ul>
     </div>
   </div>
@@ -162,33 +206,16 @@ scales to fit.
   <div class="col-sm-6 col-lg-4">
     <div class="card h-100 border-0 shadow-sm">
       <div class="d-flex align-items-center mb-2">
-        <i class="fas fa-magnifying-glass-chart text-primary me-3 fa-lg"></i>
-        <h5 class="fw-semibold mb-0">Failure Analysis &amp; Root Cause</h5>
+        <i class="fas fa-handshake text-primary me-3 fa-lg"></i>
+        <h5 class="fw-semibold mb-0">Contract &amp; Part-Time Engineering</h5>
       </div>
       <p class="small text-muted mb-2">
-        Methodical investigation of field failures with clear findings and corrective action plans.
+        Flexible consulting engagements as I transition into semi-retirement.
       </p>
       <ul class="small text-muted ps-3 mb-0">
-        <li>5-Why / fishbone facilitation</li>
-        <li>Fractography &amp; metallurgy liaison</li>
-        <li>FMEA development</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="col-sm-6 col-lg-4">
-    <div class="card h-100 border-0 shadow-sm">
-      <div class="d-flex align-items-center mb-2">
-        <i class="fas fa-chalkboard-user text-primary me-3 fa-lg"></i>
-        <h5 class="fw-semibold mb-0">Technical Consulting &amp; Review</h5>
-      </div>
-      <p class="small text-muted mb-2">
-        Independent design reviews, expert opinions, and peer-check services for third-party work.
-      </p>
-      <ul class="small text-muted ps-3 mb-0">
-        <li>Design review &amp; redlines</li>
-        <li>Vendor drawing approval</li>
-        <li>Expert witness support</li>
+        <li>Part-time &amp; contract work</li>
+        <li>Legacy system support</li>
+        <li>Independent technical review</li>
       </ul>
     </div>
   </div>
@@ -205,7 +232,8 @@ scales to fit.
 
 ## From the Blog
 
-Practical engineering write-ups, lessons learned, and tool deep-dives — published regularly on the MVeng technical blog.
+Write-ups on past projects I've been part of, hobby projects, RVing and
+RV projects, and whatever else comes to mind — published on the MVeng blog.
 
 <div class="d-flex flex-wrap gap-2 mt-3">
   <a href="https://mvaughn51.github.io/mvaughn51/" class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener">
@@ -228,10 +256,13 @@ Practical engineering write-ups, lessons learned, and tool deep-dives — publis
 ════════════════════════════════════════════ -->
 <section id="contact" class="text-center py-4 mb-3" markdown="1">
 
-## Ready to Start a Project?
+## Interested in Working Together?
 
-Whether you have a fully scoped RFP or just a napkin sketch, reach out and
-let's find out if MVeng is the right fit.
+I'm easing into semi-retirement, splitting time between part-time work
+at my current company and select consulting engagements. If you have a
+legacy system that needs support, an embedded project that needs
+real-world RTOS experience, or documentation and training needs, let's
+talk.
 
 <div class="d-flex flex-wrap justify-content-center gap-3 mt-4">
   <a href="mailto:mvaughn51@gmail.com" class="btn btn-primary btn-lg px-5">
