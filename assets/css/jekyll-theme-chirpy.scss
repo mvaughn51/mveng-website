@@ -16,3 +16,8 @@
 :root[data-bs-theme='light'] {
   --main-bg: #eaf4fb;
 }
+
+/* Sidebar avatar: square logo with rounded corners, not Chirpy's default circle crop */
+#avatar.rounded-circle {
+  border-radius: 18% !important;
+}
